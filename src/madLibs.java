@@ -17,7 +17,7 @@ public class madLibs
 
         Scanner foo = new Scanner(System.in);
 
-        System.out.printf("How old are you?");
+        System.out.printf("How old are you?\n");
         ageAsString = foo.nextLine();
         int age = Integer.parseInt(ageAsString);
         if (age < 13)
